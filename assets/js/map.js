@@ -1,6 +1,6 @@
 window.map = {
     mapType: "ROADMAP",
-    mapZoom: 15,
+    mapZoom: 16,
     mapStyle: "flat",
     mapScroll: !1,
     marker: "show",
@@ -57,7 +57,7 @@ window.map = {
                     featureType: "road",
                     elementType: "labels",
                     stylers: [{
-                        visibility: "off"
+                        visibility: "on"
                     }]
                 }, {
                     featureType: "poi.park",
@@ -70,7 +70,7 @@ window.map = {
                 }, {
                     elementType: "labels",
                     stylers: [{
-                        visibility: "off"
+                        visibility: "on"
                     }]
                 }, {
                     featureType: "landscape.man_made",
@@ -78,7 +78,7 @@ window.map = {
                     stylers: [{
                         weight: .9
                     }, {
-                        visibility: "off"
+                        visibility: "on"
                     }]
                 }],
                 h = {
