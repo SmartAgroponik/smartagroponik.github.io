@@ -10,10 +10,10 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://raw.githubusercontent.com/SmartAgroponik/smartagroponik.github.io/master/assets/images/favicons/apple-touch-icon-114x114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://raw.githubusercontent.com/SmartAgroponik/smartagroponik.github.io/master/assets/images/favicons/apple-touch-icon-72x72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="https://raw.githubusercontent.com/SmartAgroponik/smartagroponik.github.io/master/assets/images/favicons/apple-touch-icon-60x60-precomposed.png">
-    <link href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,400italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,400italic" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/theme.min.css">
-    <link rel="stylesheet" href="assets/css/color-defaults.min.css">
+    <link rel="stylesheet" href="assets/css/theme.css">
+    <link rel="stylesheet" href="assets/css/color-defaults.css">
     <link rel="stylesheet" href="assets/css/swatch-beige-black.min.css">
     <link rel="stylesheet" href="assets/css/swatch-black-beige.min.css">
     <link rel="stylesheet" href="assets/css/swatch-black-white.min.css">
@@ -24,7 +24,8 @@
     <link rel="stylesheet" href="assets/css/swatch-white-black.min.css">
     <link rel="stylesheet" href="assets/css/swatch-white-blue.min.css">
     <link rel="stylesheet" href="assets/css/swatch-white-green.min.css">
-
+    <link rel="stylesheet" href="assets/css/swatch-white-red.min.css">
+    <link rel="stylesheet" href="assets/css/swatch-yellow-black.min.css">
     <link rel="stylesheet" href="assets/css/fonts.min.css" media="screen">
 </head>
 <body class="pace-on pace-dot">
@@ -41,7 +42,7 @@
         <nav class="collapse navbar-collapse main-navbar" role="navigation">
             <ul class="nav navbar-nav navbar-right">
                 <li class="active"><a href="#home">Home</a></li>
-                <li class=""><a href="#about">Tentang Kami</a></li>
+                <li class=""><a href="#about">Fitur</a></li>
                 <li class=""><a href="#tujuan">Tujuan</a></li>
                 <li class=""><a href="#manfaat">Fungsi dan Manfaat</a></li>
                 <li class=""><a href="#contact">Kontak</a></li>
@@ -50,18 +51,18 @@
     </div>
 </header>
 <section class="section swatch-green-white" id="home">
-    <div class="background-media" style="background-image: url('https://raw.githubusercontent.com/SmartAgroponik/smartagroponik.github.io/master/assets/images/agroponik.jpg'); background-size: cover" data-start="background-position: 50% 0px" data-top-bottom="background-position: 50% -200px"></div>
+    <div class="background-media" style="background-image: url('assets/images/agroponik.jpg'); background-size: cover" data-start="background-position: 50% 0px" data-top-bottom="background-position: 50% -200px"></div>
     <div class="background-overlay" style="background-color:rgba(14, 196, 105, 0.3)"></div>
     <div class="container">
         <header class="section-header text-center underline">
-            <h1 class="headline hyper hairline">Smart Agroponik</h1>
+            <h1 class="headline hyper hairline"><b>Smart Agroponik</b></h1>
             <p>
-                Teknologi <i>Internet of Things</i> pada budidaya tanaman bernilai ekonomi tinggi berbasis sistem hidroponik.
+                Teknologi <i>Internet of Things</i> pada budidaya tanaman bernilai ekonomi tinggi berbasis sistem hidroponik tower.
             </p>
         </header>
     </div>
 </section>
-<section class="section swatch-white-red has-top" id="about">
+<section class="section swatch-white-green has-top" id="about">
     <div class="decor-top">
         <svg class="decor" height="100%" preserveaspectratio="none" version="1.1" viewbox="0 0 100 100" width="100%" xmlns="http://www.w3.org/2000/svg">
             <path d="M0 100 L100 0 L100 100" stroke-width="0"></path>
@@ -69,37 +70,44 @@
     </div>
     <div class="container">
         <header class="section-header underline">
-            <h1 class="headline super hairline">About us</h1>
+            <h1 class="headline super hairline">Fitur</h1>
         </header>
         <div class="row">
-            <div class="col-md-4 text-center">
+            <div class="col-md-4 text-center os-animation" data-os-animation="fadeInUp" data-os-animation-delay=".0s">
                 <div class="box-round box-big">
                     <div class="box-dummy"></div>
-                    <span class="box-inner"><i class="fa fa-thumbs-o-up" data-animation="bounce"></i></span>
+                    <span class="box-inner">
+                        <img alt="Design" class="img-circle" data-animation="rubberBand" src="https://raw.githubusercontent.com/SmartAgroponik/smartagroponik.github.io/master/assets/images/design/design.png">
+                    </span>
 
                 </div>
                 <h3 class="margin-top">Design</h3>
                 <p>Didesain untuk jenis Greenhouse bertipe setengah lingkaran dan teknik hidroponik tower
                 </p>
             </div>
-            <div class="col-md-4 text-center">
+            <div class="col-md-4 text-center os-animation" data-os-animation="fadeInUp" data-os-animation-delay=".3s">
                 <div class="box-round box-big">
                     <div class="box-dummy"></div>
-                    <span class="box-inner"><i class="fa fa-gears" data-animation="tada"></i></span>
+                    <span class="box-inner"><i class="fa fa-gears"></i></span>
+                    <span class="box-inner">
+                        <img alt="Machine Learning" class="img-circle" data-animation="tada" src="https://raw.githubusercontent.com/SmartAgroponik/smartagroponik.github.io/master/assets/images/design/iot.png">
+                    </span>
                 </div>
-                <h3 class="margin-top">Machine Learning</h3>
+                <h3 class="margin-top">Machine Learning dan Otomasi</h3>
                 <p>
-                    Dukungan machine learning untuk meningkatkan kualitas proses operasional
+                    Dukungan machine learning dan otomasi untuk meningkatkan kualitas, efesiensi dan efektivitas proses operasional untuk menghasilkan prodak yang besar secara kuantitas, kualitas terbaik dan bernilai ekonomi tinggi.
                 </p>
             </div>
-            <div class="col-md-4 text-center">
+            <div class="col-md-4 text-center os-animation" data-os-animation="fadeInUp" data-os-animation-delay=".6s">
                 <div class="box-round box-big">
                     <div class="box-dummy"></div>
-                    <span class="box-inner"><i class="fa fa-desktop" data-animation="swing"></i></span>
+                    <span class="box-inner">
+                        <img alt="Monitor" class="img-circle" data-animation="shake" src="https://raw.githubusercontent.com/SmartAgroponik/smartagroponik.github.io/master/assets/images/design/custom-icons/monitor.png">
+                    </span>
                 </div>
-                <h3 class="margin-top">Device</h3>
+                <h3 class="margin-top">Monitor</h3>
                 <p>
-                    Pemantauan dari beragam device, yaitu Mobile dan Desktop
+                    Pemantauan dari beragam device smartphone dan desktop
                 </p>
             </div>
         </div>
@@ -120,7 +128,7 @@
         </header>
     </div>
 </section>
-<section class="section swatch-white-red has-top" id="manfaat">
+<section class="section swatch-white-green has-top" id="manfaat">
     <div class="decor-top">
         <svg class="decor" height="100%" preserveaspectratio="none" version="1.1" viewbox="0 0 100 100" width="100%" xmlns="http://www.w3.org/2000/svg">
             <path d="M0 100 L100 0 L100 100" stroke-width="0"></path>
@@ -131,7 +139,11 @@
             <h1 class="headline super hairline">Fungsi dan Manfaat</h1>
             <p class="">Smart Agroponik untuk Sistem Hidroponik Berbasis Tower  adalah satu set platform terdiri dari perangkat automation Internet of Things dan software as a service (SaaS) yang diimplementasikan untuk pertanian hidroponik melalui media Greenhouse demi meningkatkan efisiensi, pengelolaan produksi yang lebih baik dan meningkatkan hasil panen dari segi kualitas, nilai ekonomi dan kuantitas.
             </p>
+
         </header>
+        <div class="col-md-6 col-md-offset-3 margin-bottom">
+            <img src="https://raw.githubusercontent.com/SmartAgroponik/smartagroponik.github.io/master/assets/images/design/custom-icons/design.png" alt="" class="img-responsive">
+        </div>
         <div class="col-md-6 col-md-offset-3">
             <div class="panel-group" id="accordion">
                 <div class="panel panel-default">
@@ -162,24 +174,15 @@
     </div>
     <div class="container">
         <header class="section-header underline">
-            <h1 class="headline super hairline">Contact</h1>
+            <h1 class="headline hyper hairline">Contact Us</h1>
+            <p class="big">Alamat: Jl Duta Permai Blok C4/18 Ciputat Tangerang Selatan 15419, Indonesia
+            </p>
+            <p class="big">
+                Email : asatriana@gmail.com - permana.sidiq@gmail.com
+            </p>
         </header>
         <div class="row">
-            <div class="col-md-6">
-                <form class="contact-form" id="contactForm" novalidate="">
-                    <div class="form-group form-icon-group"><input class="form-control" id="name" placeholder="Your name *" type="text"> <i class="fa fa-user"></i></div>
-                    <div class="form-group form-icon-group"><input class="form-control" id="email" placeholder="Your email *" type="text"> <i class="fa fa-envelope"></i></div>
-                    <div class="form-group form-icon-group"><textarea class="form-control" id="message" placeholder="Your message" rows="10"></textarea><i class="fa fa-pencil"></i></div>
-                    <div class="form-group text-center">
-                        <button class="btn btn-primary btn-icon btn-icon-right" type="submit">
-                            Send email
-                            <div class="hex-alt"><i class="fa fa-envelope"></i></div>
-                        </button>
-                    </div>
-                    <div id="messages"></div>
-                </form>
-            </div>
-            <div class="col-md-6">
+            <div class="col-md-6 col-md-offset-3">
                 <div class="google-map" id="map" style="height:354px"></div>
             </div>
         </div>
@@ -211,9 +214,9 @@
     </section>
 </footer>
 <a class="go-top hex-alt" href="javascript:void(0)"><i class="fa fa-angle-up"></i></a>
-<script src="assets/js/packages.min.js"></script>
-<script src="assets/js/theme.min.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnxvjCXqwk14HqYKtSjBrNa25rlHtYkPc&sensor=false"></script>
-<script src="assets/js/map.js"></script>
+<script type="text/javascript" src="assets/js/packages.min.js"></script>
+<script type="text/javascript" src="assets/js/theme.min.js"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnxvjCXqwk14HqYKtSjBrNa25rlHtYkPc&sensor=false"></script>
+<script type="text/javascript" src="assets/js/map.js"></script>
 </body>
 </html>
