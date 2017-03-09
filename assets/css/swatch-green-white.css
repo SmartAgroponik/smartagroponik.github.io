@@ -332,7 +332,8 @@
 }
 .swatch-green-white.navbar .nav>li>a,
 [class*=swatch-] .swatch-green-white.navbar .nav>li>a {
-    color: #323235
+    /*color: #323235*/
+    color: rgba(255, 255, 255, 0.71)
 }
 .swatch-green-white.navbar .nav>li>a:focus,
 .swatch-green-white.navbar .nav>li>a:hover,
@@ -342,7 +343,8 @@
 }
 .swatch-green-white.navbar .nav>li>a:before,
 [class*=swatch-] .swatch-green-white.navbar .nav>li>a:before {
-    background-color: #323235
+    /*background-color: #323235*/
+    background-color: #FFF;
 }
 .swatch-green-white .navbar-toggle,
 [class*=swatch-] .swatch-green-white .navbar-toggle {
@@ -378,7 +380,8 @@
 [class*=swatch-] .swatch-green-white.navbar .nav>.current-menu-item>a:hover,
 [class*=swatch-] .swatch-green-white.navbar .nav>li>a:focus,
 [class*=swatch-] .swatch-green-white.navbar .nav>li>a:hover {
-    color: #32323B
+    /*color: #32323B*/
+    color: #FFF;
 }
 .swatch-green-white .dropdown-menu,
 [class*=swatch-] .swatch-green-white .dropdown-menu {

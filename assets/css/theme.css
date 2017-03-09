@@ -11976,3 +11976,7 @@ textarea.woocommerce-invalid {
 .woocommerce-account .form-row .chosen-container {
     width: 100%!important
 }
+
+.white {
+    color: #FFF !important;
+}
